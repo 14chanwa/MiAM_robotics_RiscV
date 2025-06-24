@@ -8,7 +8,7 @@ if ! [ -f /.dockerenv ]; then
 fi
 
 # Create directory structure
-cd /milkv_workspace/src/MiAM_Robotics_RiscV/examples
+cd /milkv_workspace/src/MiAM_robotics_RiscV/examples
 
 # Compile examples
 for example_file in */ ; do 
@@ -18,6 +18,6 @@ for example_file in */ ; do
 
     mkdir -p "/milkv_workspace/build/examples/$example_file"
     cd "/milkv_workspace/build/examples/$example_file"
-    cmake "/milkv_workspace/src/MiAM_Robotics_RiscV/examples/$example_file" -DCMAKE_BUILD_TYPE=Release
+    cmake "/milkv_workspace/src/MiAM_robotics_RiscV/examples/$example_file" -DCMAKE_BUILD_TYPE=Release
     make -j8
 done
