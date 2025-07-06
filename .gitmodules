@@ -1,0 +1,26 @@
+[submodule "cJSON"]
+    path = mosquitto_cross_compile/cJSON
+    url = https://github.com/14chanwa/cJSON.git
+    branch = milkv_duo_cross_compile
+
+[submodule "openssl"]
+    path = mosquitto_cross_compile/openssl
+    url = https://github.com/14chanwa/openssl.git
+    branch = milkv_duo_cross_compile
+
+[submodule "mosquitto"]
+    path = mosquitto_cross_compile/mosquitto
+    url = https://github.com/14chanwa/mosquitto.git
+    branch = milkv_duo_cross_compile
+[submodule "submodule.cJSON.path"]
+	path = mosquitto_cross_compile/cJSON
+	url = https://github.com/14chanwa/cJSON.git
+	branch = milkv_duo_cross_compile
+[submodule "submodule.openssl.path"]
+	path = mosquitto_cross_compile/openssl
+	url = https://github.com/14chanwa/openssl.git
+	branch = milkv_duo_cross_compile
+[submodule "submodule.mosquitto.path"]
+	path = mosquitto_cross_compile/mosquitto
+	url = https://github.com/14chanwa/mosquitto.git
+	branch = milkv_duo_cross_compile
